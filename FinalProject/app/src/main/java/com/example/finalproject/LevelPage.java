@@ -15,7 +15,6 @@ import android.widget.ImageView;
 public class LevelPage extends AppCompatActivity {
 
 
-
     Button adventuretime;
    ImageView  Tdrama;
    ImageView Atime;

@@ -35,7 +35,11 @@ ArrayList <Question> answers;
     Question q4;
     Question q5;
 
+
+    @Override
+
 @Override
+
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_adventure_time_quiz);
@@ -45,6 +49,7 @@ ArrayList <Question> answers;
         a3 = findViewById(R.id.a3);
         a4 = findViewById(R.id.a4);
         a5 = findViewById(R.id.a5);
+
 
         questions = new ArrayList<>();
         answers = new ArrayList<>();
@@ -143,6 +148,9 @@ else {
         }
 
     }
+
+
+
 
 }
 
